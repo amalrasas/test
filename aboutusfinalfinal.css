@@ -1,0 +1,206 @@
+body{
+	overflow-x: hidden;
+  font-family: 'K2D', sans-serif;
+  background-color: #f4f4f4;
+}
+.navbar{
+	margin-bottom: 0;
+}
+#navbarSupportedContent{
+	margin-left: 320px;
+	font-size: 20px;
+	
+}
+.nav-link{
+	margin-left: 3px;
+}.container1{
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+}
+
+
+
+.container1{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.container2{
+	display: flex;
+	background-color:#57a8db;
+
+}
+.banner {
+  position: relative;
+  overflow: hidden;
+  width:100%;
+height: 5%; 
+border-radius: 1%;margin-top: 0;
+}
+
+.firstdivvideo {
+	object-fit: cover;
+  position: relative;
+top:50%;
+  left: 50%;
+
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(1%);
+  z-index: -1;
+  margin-top:0;
+
+}
+.overlay{
+	 background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.overlay h1{
+	color:#f4f4f4;
+	font-size: 5vw;
+}
+.div2position{
+	padding-top: 20px;
+	margin-left: 30px;
+	padding-bottom: 20px;
+}
+.aboutus2h1{
+	
+	font-weight: bold;
+	font-size: 57px;
+	/*color:black;*/
+	text-align: center;text-shadow: 0px 2px 2px #220808;
+}
+.aboutus2p{
+	color:#f4f4f4;
+	font-size: 18px;
+/*	font-size: 2vw;*/
+}
+.container3{
+	display: flex;
+	flex-wrap: wrap;
+border-top: 1px solid black;
+	border-color: rgba(0, 0, 0, 0.2);
+	justify-content: center;background-color: #f4f4f4;
+}
+.container3 h1{
+	color: #57a8db;
+	text-align: center;
+	justify-content: center;
+	font-size: 80px;
+	background-color: #f4f4f4;
+}
+.cofounders{
+	height: 260px;
+	width: 260px;
+}
+.col-sm{
+	width: 25%;
+}
+.cofoundersname{
+	color:black;
+	text-align: center;
+	font-size: 25px;
+}
+.container4{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f4f4f4;
+
+}
+
+.itcontainer{
+	
+	margin-right: 0;
+}
+.ITteam{
+	width:180px;
+	height: 180px;
+}
+.no-padding{
+	
+}
+.itname{
+	color:black;
+	font-size: 20px;
+	text-align: center;
+	
+}
+.itname{
+
+	color:black;
+	font-size: 20px;
+	justify-content: flex-start;
+
+}
+
+.h1marketingcontainer {
+	color:#57a8db;
+}
+.h1itcontainer{
+color:#57a8db;
+justify-content: center;
+text-align: center;
+margin:0;
+}
+.container7{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #57a8db;
+	flex-direction: column;
+	align-items: center;
+}
+#seventhdivimg{
+  width: 10vw;
+  height:15vh;
+
+   filter:  brightness(0) invert(1);
+}
+.smicons{
+
+	filter:  brightness(0) invert(1);
+}
+@media (max-width: 1200px){
+.no-padding{
+	flex-direction: column;
+}
+
+	
+@media (max-width: 800px){
+	.row{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.col-sm{
+		
+		margin:0 auto;
+		width:50%;
+	}
+	.cofoundersname{
+	color:black;
+
+	font-size: 20px;
+}
+
+.h1itcontainer{
+text-align: center;
+}
+}
+@media (min-aspect-ratio: 16/9) {
+    .firstdivvideo{
+        width:100%;
+        height: auto;
+    }
+       .firstdivvideo{ 
+        width:auto;
+        height: 100%;
+    }
+}
